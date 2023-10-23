@@ -50,7 +50,7 @@ const LeftSidebar = memo(() => {
             >
               <p>Users</p>
             </NavLink>
-            <NavLink
+            {/*             <NavLink
               to="/ChatAi"
               className="side-nav-links"
               activeclassname="active"
@@ -58,7 +58,7 @@ const LeftSidebar = memo(() => {
               onClick={toggleSidebar}
             >
               <p>Chat AI</p>
-            </NavLink>
+            </NavLink> */}
           </div>
         </nav>
       </div>
